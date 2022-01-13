@@ -1,0 +1,36 @@
+.h_main {
+    display: block;
+    justify-content: space-around;
+}
+
+.h_main h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.h_main button {
+    font-family: var(--font);
+    font-weight: 100;
+    padding: 10px;
+    margin: 10px;
+    color: var(--color);
+    border: none;
+    border-radius: 4px;
+    height: 10%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.h_main button a {
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+}
+
+@media all and (max-width: 500px) {
+    .h_main {
+        display: block;
+    }
+}
