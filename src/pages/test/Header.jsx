@@ -10,7 +10,7 @@ const Header = () => {
                     rel="stylesheet"
                     href="https://fonts.googleapis.com/icon?family=Material+Icons"
                   />
-                    <button><a href="/add"><Icon>add</Icon></a></button>
+                    <button><a href="test1/#/add"><Icon>add</Icon></a></button>
                </div>
           </>
      )

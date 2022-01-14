@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+:root {
+    --font: 'Varela Round', sans-serif;
+    --color: #ececec;
+    --2color: #274569;
+}
+
+* {
+    background-color: var(--color);
+}
+
+h1 {
+    font-family: var(--font);
+    font-weight: 200;
+    margin: 20px;
+    text-align: center;
+    color: var(--2color);
+}
+
+a {
+    color: var(--2color);
+    outline: none;
+}
+
+.main {
+    text-align: center;
+    padding: 10px;
+}
+
+.main input {
+    margin: 20px;
+    font-family: var(--font);
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border-bottom: solid #274569 1px;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 20px;
+    padding: 10px;
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.55), 10px 10px 15px rgba(70, 70, 70, 0.12);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #274569;
+}
+
+@media all and (max-width: 500px) {
+    .main {
+        width: 80%;
+    }
+    .inputs {
+        width: 80%;
+    }
+    .main input {
+        font-family: var(--font);
+        padding: 10px 10px;
+        outline: none;
+        border: solid #274569 1px;
+        font-weight: bold;
+    }
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-family: var(--font);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.datas {
+    justify-content: space-between;
+    display: flex;
+}
+
+.curd1 {
+    width: 200px;
+}
+
+.curd1 p {
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--2color);
+    font-family: var(--font);
+    text-align: justify;
+    width: 600px;
+}
+
+.main_data {
+    width: 100vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@media all and (max-width: 500px) {
+    .main_data {
+        width: 100%;
+        height: 100%;
+    }
+    .datas {
+        padding: 10px;
+    }
+    .curd1 p {
+        font-size: 10px;
+        font-weight: bold;
+        color: var(--2color);
+        font-family: var(--font);
+        text-align: justify;
+        width: 310px;
+    }
+}
